@@ -1,4 +1,4 @@
-# RetinAI: AI Assisted Diabetic Retinopathy Image Screening
+# RetinAI: Diabetic Retinopathy Image Screening
 
 This project utilizes Vision Language Models (VLMs) to create an accessible and accurate screening tool for diabetic retinopathy. By analyzing retinal images, the system will assist healthcare providers in underserved areas with early detection of the disease, helping to prevent irreversible vision loss.
 
