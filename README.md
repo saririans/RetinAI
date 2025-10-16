@@ -25,7 +25,7 @@ retinai/
 
 1.  **Clone the Repository**:
     ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/retinai.git
+    git clone https://github.com/saririans/RetinAI.git
     cd retinai
     ```
 
