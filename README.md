@@ -49,6 +49,19 @@ retinai/
 
 ***
 
+### Dataset Information
+This project uses the APTOS 2019 Blindness Detection dataset from Kaggle. In order to download the data, you must use the Kaggle API and register for the competition.
 
+
+```bash
+
+pip install kaggle
+```
+
+Download the Data:
+```bash
+
+kaggle competitions download -c aptos2019-blindness-detection -p data/raw/
+```
 
 
