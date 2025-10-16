@@ -1,0 +1,11 @@
+torch
+transformers
+diffusers
+Pillow
+opencv-python
+scikit-learn
+jupyterlab
+matplotlib
+timm
+accelerate
+gradio
