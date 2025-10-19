@@ -64,6 +64,17 @@ kaggle competitions download -c aptos2019-blindness-detection -p data/raw/
 ```
 
 For the IDRiD dataset, you must download from this website [IDRiD Datasets](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid) with an IEEE account.
+
+* **APTOS 2019 Blindness Detection:**
+    * **Source:** A large scale dataset from Kaggle competition.
+    * **Size:** 3,662 training images and 1,928 testing images.
+    * **Labels:** Each image is assigned a single severity grade from 0-4 for diabetic retinopathy, making it ideal for a standard classification tasks.
+
+* **IDRiD (Indian Diabetic Retinopathy Image Dataset):**
+    * **Source:** An expert annotated dataset from a Grand Challenge.
+    * **Size:** A smaller dataset with 413 training images.
+    * **Labels:** More detailed data with image level grades for diabetic retinopathy, plus detailed annotations for segmenting specific retinal lesions. 
+
 ***
 
 ### How to Run
