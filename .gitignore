@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 *.so
 
+RetinVENV/
 .env
 .venv
 env/
@@ -17,4 +18,12 @@ venv.bak/
 *checkpoint.ipynb
 
 .vscode/
+.DS_Store
+
+*.log
+
+build/
+dist/
+*.egg-info/
+
 
