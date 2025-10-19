@@ -9,3 +9,4 @@ matplotlib
 timm
 accelerate
 gradio
+seaborn
