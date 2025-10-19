@@ -18,7 +18,6 @@ retinai/
 ├── README.md          # Project overview and setup instructions
 └── requirements.txt   # List of all project dependencies
 ```
-
 ***
 
 ### Installation and Setup
@@ -50,7 +49,7 @@ retinai/
 ***
 
 ### Dataset Information
-This project uses the APTOS 2019 Blindness Detection dataset from Kaggle. In order to download the data, you must use the Kaggle API and register for the competition.
+This project uses the APTOS 2019 Blindness Detection dataset from Kaggle along with the Indian Diabetic Retinopathy Image Dataset (IDRiD). In order to download the APTOS data, you must use the Kaggle API and register for the competition.
 
 
 ```bash
@@ -63,5 +62,25 @@ Download the Data:
 
 kaggle competitions download -c aptos2019-blindness-detection -p data/raw/
 ```
+
+For the IDRiD dataset, you must download from this website [IDRiD Datasets](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid) with an IEEE account.
+***
+
+### How to Run
+
+After setting up the environment and downloading the data, you can run the exploratory notebook.
+
+1.  **Launch Jupyter Notebook**:
+    ```bash
+    jupyter notebook
+    ```
+2.  **Open and Run `setup.ipynb`**:
+    In the Jupyter interface that opens in your browser, navigate to the `notebooks/` directory and open the `setup.ipynb` file. You can run the cells to see the data loading and initial analysis.
+
+***
+
+### Author Information
+* **Name**: Soroush Saririan
+* **Contact**: saririans@ufl.edu 
 
 
