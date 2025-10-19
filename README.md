@@ -18,7 +18,6 @@ retinai/
 ├── README.md          # Project overview and setup instructions
 └── requirements.txt   # List of all project dependencies
 ```
-
 ***
 
 ### Installation and Setup
@@ -50,7 +49,7 @@ retinai/
 ***
 
 ### Dataset Information
-This project uses the APTOS 2019 Blindness Detection dataset from Kaggle. In order to download the data, you must use the Kaggle API and register for the competition.
+This project uses the APTOS 2019 Blindness Detection dataset from Kaggle along with the Indian Diabetic Retinopathy Image Dataset (IDRiD). In order to download the APTOS data, you must use the Kaggle API and register for the competition.
 
 
 ```bash
@@ -63,5 +62,36 @@ Download the Data:
 
 kaggle competitions download -c aptos2019-blindness-detection -p data/raw/
 ```
+
+For the IDRiD dataset, you must download from this website [IDRiD Datasets](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid) with an IEEE account.
+
+* **APTOS 2019 Blindness Detection:**
+    * **Source:** A large scale dataset from Kaggle competition.
+    * **Size:** 3,662 training images and 1,928 testing images.
+    * **Labels:** Each image is assigned a single severity grade from 0-4 for diabetic retinopathy, making it ideal for a standard classification tasks.
+
+* **IDRiD (Indian Diabetic Retinopathy Image Dataset):**
+    * **Source:** An expert annotated dataset from a Grand Challenge.
+    * **Size:** A smaller dataset with 413 training images.
+    * **Labels:** More detailed data with image level grades for diabetic retinopathy, plus detailed annotations for segmenting specific retinal lesions. 
+
+***
+
+### How to Run
+
+After setting up the environment and downloading the data, you can run the exploratory notebook.
+
+1.  **Launch Jupyter Notebook**:
+    ```bash
+    jupyter notebook
+    ```
+2.  **Open and Run `setup.ipynb`**:
+    In the Jupyter interface that opens in your browser, navigate to the `notebooks/` directory and open the `setup.ipynb` file. You can run the cells to see the data loading and initial analysis.
+
+***
+
+### Author Information
+* **Name**: Soroush Saririan
+* **Contact**: saririans@ufl.edu 
 
 
