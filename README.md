@@ -90,6 +90,39 @@ After setting up the environment and downloading the data, you can run the explo
 
 ***
 
+***
+
+### Hipergator SLURM
+
+For computationally intensive tasks, such as training the models on the full dataset, this project is configured to run on Hipergator.
+
+The `slurm/` directory contains batch scripts for submitting jobs via the SLURM workload manager.
+
+#### How to Run on Hipergator
+
+1.  Log in to Hipergator and navigate to the project directory.
+2.  Ensure you have created the Conda environment using the **environment.yml** file, NOT THE REQUIREMENT.TXT file.
+3.  Load the Conda module and activate your environment:
+    ```bash
+    module load conda
+    conda activate <VENV>
+    ```
+4.  Submit the desired job using `sbatch`. The scripts are set up to run the corresponding Python files from the `src/` directory.
+
+    ```bash
+    # To submit the data setup/preprocessing job
+    sbatch slurm/idrid_setup.slurm
+
+    # To submit the main training job
+    sbatch slurm/idrid_train.slurm
+
+    # To submit the testing job
+    sbatch slurm/idrid_test.slurm
+    ```
+
+> **Note:** Before submitting, you may need to edit the `.slurm` files to specify your HiPerGator account information (e.g., `--account=...` or `--mail-user=...`) and adjust any resource requests as needed.
+> These requests are for training and testing purposes via the LLAVA model.
+
 ### Author Information
 * **Name**: Soroush Saririan
 * **Contact**: saririans@ufl.edu 
