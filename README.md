@@ -150,7 +150,7 @@ You can run the interface in an interactive session on HiPerGator.
 
 #### Interface Preview
 
-![Interface Preview](media/Screenshot 2025-11-09 at 19.48.16.png)
+![Interface Preview](https://github.com/saririans/RetinAI/blob/main/media/Screenshot%202025-11-09%20at%2019.48.16.png?raw=true)
 
 ### Author Information
 * **Name**: Soroush Saririan
