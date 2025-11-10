@@ -150,7 +150,7 @@ You can run the interface in an interactive session on HiPerGator.
 
 #### Interface Preview
 
-![Interface Preview](media)
+![Interface Preview](media/Screenshot 2025-11-09 at 19.48.16.png)
 
 ### Author Information
 * **Name**: Soroush Saririan
