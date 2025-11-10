@@ -1,4 +1,3 @@
-torch
 transformers
 diffusers
 Pillow
@@ -7,6 +6,10 @@ scikit-learn
 jupyterlab
 matplotlib
 timm
-accelerate
 gradio
 seaborn
+torch
+pandas
+# bitsandbytes  # Not compatible with Apple Silicon, skip if on Mac
+accelerate
+sentencepiece
