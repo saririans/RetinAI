@@ -153,7 +153,7 @@ You can run the interface in an interactive session on HiPerGator.
 ![Interface Preview2](https://github.com/saririans/RetinAI/blob/main/media/Screenshot%202025-11-09%20at%2019.48.16.png?raw=true)
 
 ### Interface Demo
-![Interface Demo](https://github.com/saririans/RetinAI/blob/main/media/interface.gif?raw=true)
+![Interface Demo](https://github.com/saririans/RetinAI/blob/main/media/interfacetest.gif?raw=true)
 
 ### Author Information
 * **Name**: Soroush Saririan
