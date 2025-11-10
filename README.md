@@ -123,6 +123,35 @@ The `slurm/` directory contains batch scripts for submitting jobs via the SLURM 
 > **Note:** Before submitting, you may need to edit the `.slurm` files to specify your HiPerGator account information (e.g., `--account=...` or `--mail-user=...`) and adjust any resource requests as needed.
 > These requests are for training and testing purposes via the LLAVA model.
 
+***
+
+### User Interface
+
+This project includes an interactive web interface built with Gradio (`interface.py`) for easy, visual screening of retinal images.
+
+#### How to Run the Interface
+
+You can run the interface in an interactive session on HiPerGator.
+
+1.  From the HiPerGator login node, request an interactive GPU session:
+    ```bash
+    srun --partition=hpg-turin --gpus=l4:1 --mem=32gb --time=02:00:00 --pty bash
+    ```
+2.  Once you are in the new session, load Conda and activate your environment:
+    ```bash
+    module load conda
+    conda activate retinai_env
+    ```
+3.  Run the interface script:
+    ```bash
+    python interface.py
+    ```
+4.  The app will output a URL to view the interface.
+
+#### Interface Preview
+
+Here is a screenshot of the main application interface:
+
 ### Author Information
 * **Name**: Soroush Saririan
 * **Contact**: saririans@ufl.edu 
