@@ -149,8 +149,7 @@ You can run the interface in an interactive session on HiPerGator.
 4.  The app will output a URL to view the interface.
 
 #### Interface Preview
-![Interface Preview 1](https://github.com/saririans/RetinAI/blob/main/media/Screenshot%202025-11-09%20at%2019.39.26.png?raw=true)
-![Interface Preview2](https://github.com/saririans/RetinAI/blob/main/media/Screenshot%202025-11-09%20at%2019.48.16.png?raw=true)
+![Interface Preview 1](media/Screenshot 2025-11-21 at 22.23.25.png)
 
 ### Interface Demo
 ![Interface Demo](https://github.com/saririans/RetinAI/blob/main/media/interfacetest.gif?raw=true)
