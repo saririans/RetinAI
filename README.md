@@ -110,7 +110,7 @@ The `slurm/` directory contains batch scripts for submitting jobs via the SLURM 
 4.  Submit the desired job using `sbatch`. The scripts are set up to run the corresponding Python files from the `src/` directory.
 
     ```bash
-    # To submit the data setup/preprocessing job
+    # To submit the data setup/preprocessing jobs for IDRID
     sbatch slurm/idrid_setup.slurm
 
     # To submit the main training job
@@ -118,6 +118,14 @@ The `slurm/` directory contains batch scripts for submitting jobs via the SLURM 
 
     # To submit the testing job
     sbatch slurm/idrid_test.slurm
+
+    # To submit the jobs for APTOS
+
+    # To submit the main training job
+    sbatch slurm/aptos_train.slurm
+
+    # To submit the testing job
+    sbatch slurm/aptos_eval.slurm
     ```
 
 > **Note:** Before submitting, you may need to edit the `.slurm` files to specify your HiPerGator account information (e.g., `--account=...` or `--mail-user=...`) and adjust any resource requests as needed.
@@ -144,7 +152,7 @@ You can run the interface in an interactive session on HiPerGator.
     ```
 3.  Run the interface script:
     ```bash
-    python interface.py
+    python aptos_interface.py
     ```
 4.  The app will output a URL to view the interface.
 
@@ -152,7 +160,7 @@ You can run the interface in an interactive session on HiPerGator.
 ![Interface Preview2](https://github.com/saririans/RetinAI/blob/main/media/Screenshot%202025-11-21%20at%2022.23.25.png?raw=true)
 
 ### Interface Demo
-![Interface Demo](https://github.com/saririans/RetinAI/blob/main/media/interfacetest.gif?raw=true)
+![Interface Demo](https://github.com/saririans/RetinAI/blob/main/media/interfacenew.gif?raw=true)
 
 ### Author Information
 * **Name**: Soroush Saririan
